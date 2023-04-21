@@ -22,7 +22,7 @@ public class CreaConexion {
 
     public Connection recuperarConexion() throws SQLException {
         //Se utiliza el pool en ves del Driver para crear la conexion a la base de datos y no se cierra la conexion  hasta que se termine de ejecutar el programa
-       return DriverManager.getConnection("jdbc:mariadb://localhost:3306/hotel?useTimeZone=true&ServerTimeZone=UTC", "root", "12345");
+       return DriverManager.getConnection("jdbc:mariadb://localhost:3306/hotel?useTimeZone=true&ServerTimeZone=UTC", "root", "*****");
         //return this.dataSource.getConnection();
     }
 }
