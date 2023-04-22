@@ -9,3 +9,4 @@ Se agregan:
 - Las reservas de huespedes ,con fechas,valores,tipos de pago y se cargan en la base de datos.
 - El registro de un huesped con un codigo de reserva generado automaticamente y mostrado al usuario.
 - La posibilidad de editar,eliminar,buscar por apellido y codigo de reserva en cada tabla "Reservas" y "Huespedes"
+- Ventana para confirmar cierre.
